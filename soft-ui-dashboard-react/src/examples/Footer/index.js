@@ -56,13 +56,13 @@ function Footer({ company, links }) {
         justifyContent="center"
         alignItems="center"
         flexWrap="wrap"
-        color="text"
+        color="white"
         fontSize={size.sm}
         px={1.5}
       >
         &copy; {new Date().getFullYear()}, made with
-        <SoftBox fontSize={size.md} color="text" mb={-0.5} mx={0.25}>
-          <Icon color="inherit" fontSize="inherit">
+        <SoftBox fontSize={size.md} color="white" mb={-0.5} mx={0.25}>
+          <Icon color="white" fontSize="inherit">
             favorite
           </Icon>
         </SoftBox>
