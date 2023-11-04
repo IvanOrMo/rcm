@@ -139,11 +139,11 @@ function DashboardNavbar({ absolute, light, isMini }) {
   return (
     <AppBar
       position={absolute ? "absolute" : navbarType}
-      color="inherit"
+      color="white"
       sx={(theme) => navbar(theme, { transparentNavbar, absolute, light })}
     >
       <Toolbar sx={(theme) => navbarContainer(theme)}>
-        <SoftBox color="inherit" mb={{ xs: 1, md: 0 }} sx={(theme) => navbarRow(theme, { isMini })}>
+        <SoftBox color="white" mb={{ xs: 1, md: 0 }} sx={(theme) => navbarRow(theme, { isMini })}>
           <Breadcrumbs icon="home" title={route[route.length - 1]} route={route} light={light} />
         </SoftBox>
         {isMini ? null : (
@@ -154,7 +154,7 @@ function DashboardNavbar({ absolute, light, isMini }) {
                 icon={{ component: "search", direction: "left" }}
               />
             </SoftBox>
-            <SoftBox color={light ? "white" : "inherit"}>
+            <SoftBox color={light ? "white" : "white"}>
               {/* <Link to="/authentication/sign-in">
                 <IconButton sx={navbarIconButton} size="small">
                   <Icon
@@ -193,7 +193,7 @@ function DashboardNavbar({ absolute, light, isMini }) {
               </IconButton> */}
               <IconButton
                 size="small"
-                color="inherit"
+                color="white"
                 sx={navbarIconButton}
                 aria-controls="notification-menu"
                 aria-haspopup="true"

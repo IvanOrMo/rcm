@@ -119,7 +119,7 @@ function DefaultNavbar({ transparent, light, action }) {
                 component={Link}
                 to={action.route}
                 variant="gradient"
-                color={action.color ? action.color : "info"}
+                color={action.color ? action.color : "white"}
                 size="small"
                 circular
               >
@@ -134,7 +134,7 @@ function DefaultNavbar({ transparent, light, action }) {
                 target="_blank"
                 rel="noreferrer"
                 variant="gradient"
-                color={action.color ? action.color : "info"}
+                color={action.color ? action.color : "white"}
                 size="small"
                 circular
               >
@@ -147,7 +147,7 @@ function DefaultNavbar({ transparent, light, action }) {
           lineHeight={0}
           py={1.5}
           pl={1.5}
-          color="inherit"
+          color="white"
           sx={{ cursor: "pointer" }}
           onClick={openMobileNavbar}
         >

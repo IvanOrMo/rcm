@@ -21,7 +21,7 @@ Coded by www.creative-tim.com
 
 const colors = {
   background: {
-    default: "#f8f9fa",
+    default: "#007DC3",
   },
 
   text: {
@@ -310,6 +310,10 @@ const colors = {
   tabs: {
     indicator: { boxShadow: "#ddd" },
   },
+
+  amarillo: {
+    main: "#FFD800",
+  }
 };
 
 export default colors;
